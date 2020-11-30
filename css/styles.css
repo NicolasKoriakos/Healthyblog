@@ -1,0 +1,276 @@
+/* General styles */
+
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    text-transform: uppercase;
+}
+
+div.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+   
+header{
+    padding: 20px 0;
+    background-color: rgba(99, 179, 19, 0.705);
+}
+
+/* Logo */
+
+.logo img{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+/* Navigation */
+
+.navbar{
+    background-color: rgba(72, 136, 9, 0.705);
+}
+
+nav{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+nav ul{
+    list-style: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: bold;
+}
+
+nav ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav > ul > li{
+    float: left;
+}
+
+nav ul li a{
+    display: inline-block; 
+    width: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: rgba(72, 136, 9, 0.705);
+}
+
+nav ul ul{
+    position: absolute;
+    top: 100%;
+    background-color: rgba(72, 136, 9, 0.705);
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: block;
+}
+
+nav ul li:hover{
+    background-color: rgba(72, 136, 9, 0.705);
+}
+
+/* Main conten */
+
+div.content::after{
+    content:'';
+    display: block;
+    clear: both;
+  }
+
+main{
+    width: 70%;
+    float: left;
+    padding-right: 40px;
+}
+
+div.content h1{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+div p{
+    margin-top: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+div.content h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div.content h2.left{
+    margin-top: 60px;
+    text-align: left;
+}
+
+div.content h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+/* Aside */
+
+aside{
+    float: right;
+    width: 20%;
+    margin-top: 40px;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li{
+    padding: 10px 0 10px 10px;
+}
+
+#img2{
+    margin-top: 360px;
+}
+
+/* Footer */
+
+footer{
+    background-color: black;
+    padding-top: 40px;
+    margin-top: 30px;
+}
+
+footer h2{
+    color: white;
+}
+
+footer .container::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.us{
+    float: left;
+    width: 30%;
+    color: white;
+}
+
+div.menu{
+    float: right;
+    width: 60%;
+    text-align: right;
+}
+
+footer nav{
+    width: auto;
+}
+
+p.copyright{
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+
+/* Form */
+
+fieldset{
+    margin-top: 30px;
+    border-radius: 5px;
+    border-width: 4px;
+}
+
+.button{
+    background-color:  rgba(72, 136, 9, 0.705);
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 1cm;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:rgba(99, 179, 19, 0.705);
+    color: white;
+  }
+
+input[type=text]:focus {
+    border: 5px solid #555;
+    background-color: white;
+    color: black;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(99, 179, 19, 0.705);
+    color: white;
+}
+
+select:focus {
+    border: 2px solid #555;
+    background-color: white;
+    color: black;
+}
+
+.brtop{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.brbot{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+/* Benefits */
+
+span{
+    font-weight: bolder;
+}
+
+.ben-img:hover{
+    border: 10px solid rgba(72, 136, 9, 0.705);
+}

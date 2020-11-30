@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Healthy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/healthy-living.jpg" alt='Healthy-logo'>
+            </div> <!-- Logo -->
+
+        </div> <!-- Container -->
+
+    </header> 
+    
+    <div class="navbar"> <!-- Navigation block start-->
+
+        <nav>
+
+            <ul> <!-- Main list start-->
+
+                <li><a href="index.html">Homepage</a></li>
+                <li><a href="#">Workout</a></li>
+                <li><a href="#">Diets</a>
+                
+                    <ul> <!-- Sublist start-->
+
+                        <li><a href="#">Atkins diet</a></li>
+                        <li><a href="#">Bulletproof diet</a></li>
+                        <li><a href="#">Dunkan diet</a></li>
+                        <li><a href="#">Keto diet</a></li>
+                        <li><a href="#">Low Carb diet</a></li>
+
+                    </ul> <!-- Sublist end -->
+                
+                </li>
+
+                <li><a href="#">Recipe Index</a></li>
+                <li><a href="./benefits.html">Benefits</a></li>
+                <li><a href="#">Subscribe</a></li>
+                <li><a href="#">Find a local Gym</a></li>
+
+            </ul> <!-- Main list end -->
+
+        </nav>
+
+        
+    </div> <!-- Navigation block end-->
+    
+    
+    <div class="content container"> <!-- Form -->
+
+        <h1>Subscribe</h1>
+
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label class="brtop" for="_name">Name:</label> <!-- Name -->
+                <input type="text" name="_name" id="_name" placeholder="Here goes your name">
+    
+                <br><br>
+    
+                <label for="_lname">Lastname:</label> <!-- Last name-->
+                <input type="text" name="_lname" id="_lname" placeholder="Here goes your last name">
+
+                <br><br>
+
+                <label class="brbot" for="_age">Age:</label> <!-- Age-->
+                <input type="text" name="_age" id="_age" placeholder="Here goes your age">
+                
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Extra Information:</legend>
+    
+                <label class="brtop" for="gender">Gender: </label> <!-- Gender --> <br>
+                <input type="radio" name="gender" value="male"> Male <!-- Male Radiobutton --> <br>
+                <input type="radio" name="gender" value="female"> Female <!-- Female Radiobutton --> <br>
+                <input type="radio" name="gender" value="other">Other <!-- Unspecified Gender Radiobutton--> <br>
+    
+                <br>
+    
+                <label for="lenguages">Do you have any diseese?</label> <!-- Diseeses --> <br>
+                <input type="checkbox" name="diabetes" value="Diabetes">Diabetes <!-- Diabetes checkbox --> <br>
+                <input type="checkbox" name="hypertension" value="Hypertension">Hypertension <!-- Hypertension checkbox --> <br>
+                <input type="checkbox" name="other" value="other">Other <!-- other checkbox --> <br>
+
+                <br>
+    
+                <label for="starting_date">Starting on:</label> <!-- Starting Date --> <br>
+                <input type="date" name="s_date">
+
+                <br><br>
+        
+                <label for="time">When do you workout?</label> <!-- Team Selection -->
+                <select class="brbot" name="time" class="time">
+    
+                    <option value="early-morning">Early Morning</option>
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="night">Night</option>
+                    <option value="midnight">Midnight</option>
+    
+                <br><br>
+    
+                </select>
+    
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Contact Information:</legend>
+    
+                <label class="brtop" for="_email">E-mail: </label> <!-- Email -->
+                <input type="email" name="_email" id="_email" placeholder="example@example.com">
+    
+                <br><br>
+    
+                <label for="pnumber">Phone Number:</label> <!-- Phone number -->
+                <input type="text" name="Pnumber" id="Pnumber" placeholder="Here goes your phone number">
+    
+                <br><br>
+    
+                <label for="_url">URL: </label> <!-- URL -->
+                <input type="url" name="_url" id="_url" placeholder="https://www.example.com">
+    
+                <br><br>
+    
+                <label for="pass">Password:</label> <!-- Password -->
+                <input class="brbot" type="password" name="pass" id="pass" placeholder="Your password goes here">
+    
+            </fieldset>
+    
+            <br>
+            
+            <button class="button" type="reset">Reset</button> <!-- Reset Button -->
+    
+            <input class="button" type="submit" value="Submit"> <!-- Suscribe button -->
+    
+            <br><br>
+    
+        </form>
+
+    </div>
+
+    <!-- Footer start -->
+
+    <footer>
+
+        <div class="container">
+            <div class="us">
+
+                <h2>About us</h2>
+                <p>We are a group of people dedicated to help you get in shape with our best tips & tricks</p>
+            </div>
+
+            <div class="menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Homepage</a></li>
+                        <li><a href="#">Subscribe</a></li>
+                        <li><a href="#">Find a local Gym</a></li>                      
+                    </ul>
+                </nav>
+
+            </div> <!-- Menu -->
+
+        </div> <!-- conteiner -->
+
+        <p class="copyright">All rights reserved &copy</p>
+
+    </footer>
+
+</body>
+
+</html>
